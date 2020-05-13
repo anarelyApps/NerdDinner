@@ -1,0 +1,22 @@
+﻿@model NerdDinner.Models.Dinners
+
+<div id="theMap">
+</div>
+
+lat:<span id='lat'></span>
+lon:<span id='lon'></span>
+
+<script>
+    window.onload = function () { initialize() };
+</script>
+
+<style>
+    div#theMap {
+        width: 80%;
+        height: 500px;
+        border: double;      
+        position:absolute;  
+    }
+   
+</style>
+
